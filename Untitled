@@ -1,0 +1,14 @@
+THIS SHOULD PRINT THE PLACE INFO
+{u'city': u'Enders',
+u'lat': 40.428451,
+u'name': u'Enders Reservoir State Recreation Area',
+u'activities':
+    [{u'attribs': {u'"length"': u'"3"'}, u'rating': 5.0, u'activity_type_id': 6, u'name': u'Enders Reservoir', u'url': u'http://www.tripleblaze.com/trail.php?c=2&i=1282', u'place_id': 17971, u'length': 3.0, u'rank': None, u'activity_type_name': u'camping', u'activity_type': {u'updated_at': u'2012-08-15T17:31:31Z', u'created_at': u'2012-08-15T17:31:31Z', u'id': 6, u'name': u'camping'}, u'thumbnail': None, u'unique_id': u'3-1282', u'description': u'Enders Dam and reservoir, Frenchman Cambridge Division, PSMBP, is managed for the Bureau of Reclamation by the Nebraska Game and Parks Commission. The reservoir is open 24 hours. Good access roads. Fishing season is year-round. Available species include walleye, crappie, white bass, channel catfish, and wipers. Irrigation supply reservoir experiencing minor fluctuations. Reservoir peaks at 1,705 surface acres. A portion of the area is dedicated as a wildlife refuge in the fall and winter. Large flocks of mallards and geese winter on the open waters of the refuge.Public hunting on about 1,500 acres is allowed in some areas for deer, waterfowl, and upland game. Current Reservoir Levels'}],
+u'country': u'United States',
+u'lon': -101.536786,
+u'parent_id': None,
+u'state': u'Nebraska',
+u'directions': u'5 miles E, 4.5 miles S of Imperial',
+u'date_created': None, u'children': [],
+u'unique_id': 17971,
+u'description': u'Enders Reservoir SRA at Enders has 3,278 acres of land on a 1,707-acre lake, part of which is a waterfowl refuge. There are modern restrooms, coin-operated showers, dump station, fish cleaning station, 32 (30-amp) hookups and 200 non-pad sites'}

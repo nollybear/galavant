@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Site made with Mobirise Website Builder v3.10.4, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=1,initial-scale=1,user-scalable=1" />
+  <title>Galavant</title>
+  {% load staticfiles %}
+  <link rel="stylesheet" href="{% static 'galavantapp/css/main.css' %}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <div class="bgd_image">
+        <img src="{% static 'galavantapp/img/john_muir_trail.png' %}" style="height:100%;width:100%;">
+    </div>
+            <div id="trail">
+                <div id="trail-info-head">
+                    <h1>{{place.name}}</h1>
+                    <hr>
+                </div>
+                <div id="trail-info-body">
+
+                    <iframe
+                      width="100%"
+                      height="300"
+                      frameborder="0" style="border:0"
+                      src="https://www.google.com/maps/embed/v1/search?key=AIzaSyDGJcoeA05RZ4WGu_pPJDPCHbfStF0ezeI&q={{place.name}}" allowfullscreen>
+                    </iframe>
+
+                    <p><strong>Description:</strong> {{place.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
