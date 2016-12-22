@@ -26,3 +26,6 @@ def trail(request, id):
         'place':wantedplace
     }
     return render(request, "galavantapp/trail.html", context)
+
+def half_dome(request):
+        return render (request, "galavantapp/half_dome.html")
